@@ -119,4 +119,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit as e:
+        raise
+    except Exception as e:
+        print(f"FATAL: {type(e).__name__}: {e}", file=sys.stderr)
+        raise SystemExit(1) from e
