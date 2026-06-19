@@ -5,9 +5,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
 
 def main():
@@ -25,7 +27,8 @@ def main():
         from craft_gc.pipeline.craft_gc_pipeline import CRAFTGCPipeline
     except ImportError as exc:
         raise SystemExit(
-            "Missing deps. Install: pip install torch diffusers open-clip-torch transformers accelerate"
+            f"Import failed ({exc}). From project root run:\n"
+            "  pip install torch diffusers open-clip-torch transformers accelerate"
         ) from exc
 
     if args.device == "cuda" and not torch.cuda.is_available():
