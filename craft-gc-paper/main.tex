@@ -244,10 +244,16 @@ GCFairBench contains 500 prompts: 100 per region $\times$ five categories---(1)~
 \section{Experimental Setup}
 \label{sec:setup}
 
-We use a two-stage protocol. \textbf{Stage~A (completed, CPU)} evaluates steered CLIP ViT-B/32 text embeddings on all 500 GCFairBench prompts; CoFS uses zero-shot demographic text probes and CFS measures similarity change to each \texttt{cultural\_caption}. \textbf{Stage~B (GPU, primary for journal)} generates Stable Diffusion v1.5 images with CAS and reports image-level CoFS, CFS, CLIPScore, FID, and seed variance via \texttt{notebooks/CRAFT\_GC\_Colab.ipynb}.
+We use a two-stage protocol. \textbf{Stage~A} evaluates steered CLIP ViT-B/32 text embeddings on all 500 GCFairBench prompts. \textbf{Stage~B} generates Stable Diffusion v1.5 images with CAS using bias directions in the SD text-encoder space (768-d), stratified across all five regions.
+
+\paragraph{Pilot study (Trial~1).}
+An initial Colab pilot ($N{=}50$ prompts, SSA subset) validated the pipeline but applied OpenCLIP 512-d directions to cross-attention keys without dimension alignment; CRAFT-GC outputs matched Base SD. Trial~1 is reported as a limitation and motivates the SD-native steering fix in Trial~2.
+
+\paragraph{Main study (Trial~2).}
+We sample 20 prompts per region (100 total), four methods, five seeds ($K{=}5$), yielding 2{,}000 images. A steering sanity check confirms Base $\neq$ CRAFT-GC before the full run (\texttt{scripts/verify\_steering.py}).
 
 \paragraph{Model and hardware.}
-Stage~A runs on CPU in ${\sim}$14 minutes. Stage~B uses \texttt{runwayml/stable-diffusion-v1-5}, DPMSolverMultistep, 50 steps, guidance 7.5, $512\times512$, float16 on Colab T4/A100 ($\geq$16GB VRAM).
+Stage~B uses \texttt{runwayml/stable-diffusion-v1-5}, DPMSolverMultistep, 50 steps, guidance 7.5, $512\times512$, float16 on Colab T4/A100.
 
 \paragraph{Baselines.}
 (1)~\textbf{Base}---no debiasing;
@@ -316,11 +322,11 @@ Table~\ref{tab:region} stratifies CoFS by macro-region. Differences remain withi
 
 \subsection{Image generation results (Stage~B)}
 
-Stage~B is the primary evaluation for journal submission. For each prompt we generate images with Base SD, PromptAug, FairImagen (CAS proxy), and CRAFT-GC (full CAS) using $K{=}5$ seeds. Table~\ref{tab:image} reports image-level metrics on a 50-prompt stratified subset (10 per region); full 500-prompt runs use the same scripts with \texttt{--prompt-limit 500}.
+Stage~B is the primary evaluation for journal submission. Trial~2 uses 100 prompts (20 per region), four methods, and $K{=}5$ seeds (2{,}000 images). Table~\ref{tab:image} is filled from \texttt{results/paper\_results\_full.json} after Colab.
 
 \begin{table}[t]
   \centering
-  \caption{Stage~B: image-level metrics (50 prompts $\times$ 5 seeds). Populate after running \texttt{notebooks/CRAFT\_GC\_Colab.ipynb}.}
+  \caption{Stage~B: image-level metrics (Trial~2: 100 prompts stratified, 5 seeds). Populate after Colab; Trial~1 pilot in appendix.}
   \label{tab:image}
   \small
   \begin{tabular}{lcccc}
@@ -386,10 +392,10 @@ CoFS in Stage~A uses CLIP text probes, not FairFace on generated images; Stage~B
 \section{Conclusion}
 \label{sec:conclusion}
 
-We presented CRAFT-GC, a training-free framework for geo-culturally aware fairness steering in text-to-image diffusion. GCFairBench (500 prompts), CoFS, and CFS support reproducible evaluation across under-studied regions. Stage~A CLIP experiments on all 500 prompts are complete; Stage~B image experiments via Colab provide the primary path to Springer journal submission.
+We presented CRAFT-GC, a training-free framework for geo-culturally aware fairness steering in text-to-image diffusion. GCFairBench (500 prompts), CoFS, and CFS support reproducible evaluation across under-studied regions. Stage~A CLIP experiments on all 500 prompts are complete. Stage~B Trial~2 (100 stratified prompts, SD-native CAS) provides the primary image-level evidence for journal submission.
 
 \paragraph{Reproducibility.}
-Code: \texttt{craft\_gc/}. Stage~A: \texttt{scripts/evaluate\_embeddings.py}. Stage~B: \texttt{notebooks/CRAFT\_GC\_Colab.ipynb}. Figures: \texttt{scripts/plot\_figures.py}, \texttt{scripts/make\_qualitative\_grid.py}.
+Code: \texttt{craft\_gc/}. Stage~A: \texttt{scripts/evaluate\_embeddings.py}. Stage~B: \texttt{CRAFT\_GC\_Colab.ipynb} (Trial~2). Post-run: \texttt{scripts/summarize\_results.py}, \texttt{scripts/update\_image\_table.py}.
 
 \section*{Acknowledgments}
 We thank the Addis Ababa University MSc in Artificial Intelligence program for supporting this research. We gratefully acknowledge open-source releases of Stable Diffusion, Diffusers, FairImagen, and FairFace.
@@ -398,6 +404,24 @@ We thank the Addis Ababa University MSc in Artificial Intelligence program for s
 \bibliography{references}
 
 \appendix
+
+\section{Pilot study (Trial~1)}
+\label{app:trial1}
+
+Trial~1 used 50 SSA-only prompts with OpenCLIP 512-d directions applied to cross-attention keys (dimension mismatch). Base, FairImagen, and CRAFT-GC outputs were byte-identical; only PromptAug changed images. Mean image-level metrics:
+
+\begin{tabular}{lccc}
+  \toprule
+  Method & CoFS & CLIPScore & Cultural sim \\
+  \midrule
+  Base & 0.996 & 30.6 & 0.300 \\
+  PromptAug & 0.996 & 29.2 & 0.288 \\
+  FairImagen & 0.996 & 30.6 & 0.300 \\
+  CRAFT-GC & 0.996 & 30.6 & 0.300 \\
+  \bottomrule
+\end{tabular}
+
+Trial~2 fixes steering via \texttt{SDBiasDirectionEstimator} (768-d) and stratified 100-prompt sampling.
 
 \section{Hyperparameters}
 \label{app:hyper}

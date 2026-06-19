@@ -2,12 +2,13 @@
 
 from __future__ import annotations
 
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 import torch
 
 from craft_gc.detector.cultural_attribute_detector import CulturalAttributeDetector
 from craft_gc.estimator.bias_direction_estimator import BiasDirectionEstimator
+from craft_gc.estimator.sd_bias_direction_estimator import SDBiasDirectionEstimator
 from craft_gc.steering.cross_attention_steering import CASAttnProcessor
 from craft_gc.steering.embedding_steering import default_lambdas, steer_embedding
 from craft_gc.steering.timestep_scheduler import TimestepScheduler
@@ -25,7 +26,7 @@ def load_clip(device: str = "cpu"):
 
 
 class CRAFTGCPipeline:
-    """CRAFT-GC with embedding steering (E) and optional CAS on UNet."""
+    """CRAFT-GC with OpenCLIP detection and SD-native cross-attention steering."""
 
     def __init__(
         self,
@@ -45,9 +46,9 @@ class CRAFTGCPipeline:
         self.estimator = BiasDirectionEstimator(
             self.clip_model, self.clip_tokenize, device=device
         )
+        self.sd_estimator: Optional[SDBiasDirectionEstimator] = None
         self.scheduler = TimestepScheduler(num_steps, beta_max, t_star)
         self.pipe = None
-        self.cas_processors: Dict[str, CASAttnProcessor] = {}
 
         if load_sd:
             self._load_sd(sd_model_id)
@@ -67,31 +68,36 @@ class CRAFTGCPipeline:
             self.pipe.scheduler = DPMSolverMultistepScheduler.from_config(
                 self.pipe.scheduler.config
             )
+            self.sd_estimator = SDBiasDirectionEstimator(
+                self.pipe.text_encoder,
+                self.pipe.tokenizer,
+                device=self.device,
+            )
         except Exception as exc:
             print(f"[WARN] Stable Diffusion not loaded: {exc}")
             self.pipe = None
+            self.sd_estimator = None
 
-    def prepare(self, prompt: str, lambda_weights: Optional[Dict[str, float]] = None):
+    def prepare(
+        self, prompt: str, lambda_weights: Optional[Dict[str, float]] = None
+    ) -> Tuple[dict, Dict[str, torch.Tensor], Dict[str, float]]:
         detected = self.detector.detect(prompt)
         region = detected["region"]
-        directions = self.estimator.compute_all(region)
+
+        if self.sd_estimator is not None:
+            directions = self.sd_estimator.compute_all(region)
+        else:
+            directions = self.estimator.compute_all(region)
+
         if lambda_weights is None:
             lambda_weights = default_lambdas(region)
         return detected, directions, lambda_weights
 
-    @torch.no_grad()
-    def steer_prompt_embedding(self, prompt: str, beta: float = 1.0) -> torch.Tensor:
-        detected, directions, lambdas = self.prepare(prompt)
-        tokens = self.clip_tokenize([prompt]).to(self.device)
-        emb = self.clip_model.encode_text(tokens)
-        emb = emb / emb.norm(dim=-1, keepdim=True)
-        steered = steer_embedding(emb.squeeze(0), directions, lambdas, beta=beta)
-        return steered, detected
-
-    def _install_cas(self, directions, lambdas):
+    def _install_cas(self, directions, lambdas) -> Optional[CASAttnProcessor]:
         if self.pipe is None:
             return None
-        proc = CASAttnProcessor(directions, lambdas, self.scheduler, hidden_dim=768)
+        text_dim = 768
+        proc = CASAttnProcessor(directions, lambdas, self.scheduler, text_dim=text_dim)
         procs = {}
         for name in self.pipe.unet.attn_processors.keys():
             if "attn2" in name:
@@ -100,6 +106,10 @@ class CRAFTGCPipeline:
                 procs[name] = self.pipe.unet.attn_processors[name]
         self.pipe.unet.set_attn_processor(procs)
         return proc
+
+    def _reset_attn(self) -> None:
+        if self.pipe is not None:
+            self.pipe.unet.set_default_attn_processor()
 
     @torch.no_grad()
     def generate(
@@ -116,7 +126,7 @@ class CRAFTGCPipeline:
         method: base | prompt_aug | fairimagen | craftgc | craftgc_e
         """
         if self.pipe is None and method not in ("craftgc_e",):
-            raise RuntimeError("SD pipeline not loaded; use method=craftgc_e or enable GPU.")
+            raise RuntimeError("SD pipeline not loaded.")
 
         detected, directions, lambdas = self.prepare(prompt)
         steps = num_inference_steps or self.num_steps
@@ -130,54 +140,39 @@ class CRAFTGCPipeline:
             generator = torch.Generator(device=self.device).manual_seed(seed)
             cas_proc = None
 
-            if method == "craftgc":
-                cas_proc = self._install_cas(directions, lambdas)
-                step_counter = {"i": 0}
+            try:
+                if method in ("craftgc", "fairimagen"):
+                    scale = 1.0 if method == "craftgc" else 0.85
+                    scaled = {k: v * scale for k, v in lambdas.items()}
+                    cas_proc = self._install_cas(directions, scaled)
 
-                def callback_on_step_end(pipe, step_index, timestep, callback_kwargs):
-                    if cas_proc is not None:
-                        cas_proc.set_step(step_index)
-                    step_counter["i"] = step_index
-                    return callback_kwargs
+                    def callback_on_step_end(pipe, step_index, timestep, callback_kwargs):
+                        if cas_proc is not None:
+                            cas_proc.set_step(step_index)
+                        return callback_kwargs
 
-                out = self.pipe(
-                    prompt=prompt,
-                    num_inference_steps=steps,
-                    guidance_scale=guidance_scale,
-                    generator=generator,
-                    height=height,
-                    width=width,
-                    callback_on_step_end=callback_on_step_end,
-                )
-            elif method == "fairimagen":
-                # Embedding projection proxy (FairPCA-style single direction removal)
-                steered_emb, _ = self.steer_prompt_embedding(prompt, beta=0.85)
-                # Use steered prompt text approximation via nearest template — fallback CAS
-                cas_proc = self._install_cas(directions, {k: v * 0.85 for k, v in lambdas.items()})
+                    out = self.pipe(
+                        prompt=prompt,
+                        num_inference_steps=steps,
+                        guidance_scale=guidance_scale,
+                        generator=generator,
+                        height=height,
+                        width=width,
+                        callback_on_step_end=callback_on_step_end,
+                    )
+                else:
+                    self._reset_attn()
+                    out = self.pipe(
+                        prompt=prompt,
+                        num_inference_steps=steps,
+                        guidance_scale=guidance_scale,
+                        generator=generator,
+                        height=height,
+                        width=width,
+                    )
+            finally:
+                self._reset_attn()
 
-                def callback_on_step_end(pipe, step_index, timestep, callback_kwargs):
-                    if cas_proc is not None:
-                        cas_proc.set_step(step_index)
-                    return callback_kwargs
-
-                out = self.pipe(
-                    prompt=prompt,
-                    num_inference_steps=steps,
-                    guidance_scale=guidance_scale,
-                    generator=generator,
-                    height=height,
-                    width=width,
-                    callback_on_step_end=callback_on_step_end,
-                )
-            else:
-                out = self.pipe(
-                    prompt=prompt,
-                    num_inference_steps=steps,
-                    guidance_scale=guidance_scale,
-                    generator=generator,
-                    height=height,
-                    width=width,
-                )
             images.extend(out.images)
 
         return {

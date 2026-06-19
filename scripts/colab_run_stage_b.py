@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Run Stage B on Colab: SD image generation + evaluation + figures."""
+"""Run Stage B: stratified SD image generation + evaluation."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -14,56 +15,38 @@ os.chdir(ROOT)
 sys.path.insert(0, str(ROOT))
 
 
-def require_cuda():
-    import torch
-
-    if not torch.cuda.is_available():
-        raise SystemExit(
-            "CUDA not available. In Colab: Runtime → Change runtime type → T4 GPU, then restart."
-        )
-    print("GPU:", torch.cuda.get_device_name(0))
-
-
-def require_deps():
-    missing = []
-    for pkg in ("torch", "diffusers", "transformers", "accelerate", "open_clip"):
-        try:
-            __import__(pkg if pkg != "open_clip" else "open_clip")
-        except ImportError:
-            missing.append(pkg)
-    if missing:
-        raise SystemExit(
-            "Missing packages: "
-            + ", ".join(missing)
-            + "\nRun: pip install torch diffusers transformers accelerate open-clip-torch"
-        )
-
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=50)
+    parser.add_argument("--per-region", type=int, default=20, help="Prompts per region (5 regions)")
+    parser.add_argument("--limit", type=int, default=0, help="If >0, use first N prompts (legacy pilot)")
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--seeds", type=int, nargs="+", default=[42, 123, 456, 789, 1024])
+    parser.add_argument("--out", default="results/pilot_images")
     args = parser.parse_args()
-
-    require_deps()
-    require_cuda()
 
     import torch
     from craft_gc.benchmark.gcfairbench import load_benchmark
+    from craft_gc.benchmark.sampling import load_stratified
     from craft_gc.pipeline.craft_gc_pipeline import CRAFTGCPipeline
 
+    if not torch.cuda.is_available():
+        raise SystemExit("CUDA required. Set Colab runtime to T4 GPU.")
+
+    if args.limit > 0:
+        entries = load_benchmark()[: args.limit]
+    else:
+        entries = load_stratified(args.per_region)
+
     methods = ["base", "prompt_aug", "fairimagen", "craftgc"]
-    entries = load_benchmark()[: args.limit]
-    out_dir = ROOT / "results" / "pilot_images"
+    out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Loading Stable Diffusion on {args.device}...")
+    print(f"Prompts: {len(entries)} | Methods: {len(methods)} | Seeds: {len(args.seeds)}")
+    print(f"Total images: {len(entries) * len(methods) * len(args.seeds)}")
+
     pipe = CRAFTGCPipeline(device=args.device, load_sd=True)
-    if pipe.pipe is None:
-        raise SystemExit(
-            "Stable Diffusion failed to load. Check HF_TOKEN and diffusers install."
-        )
+    if pipe.pipe is None or pipe.sd_estimator is None:
+        raise SystemExit("Stable Diffusion failed to load. Check HF_TOKEN.")
 
     manifest = []
     total = len(entries) * len(args.seeds) * len(methods)
@@ -85,6 +68,7 @@ def main():
                         "id": entry["id"],
                         "prompt": prompt,
                         "region": entry["region"],
+                        "category": entry.get("category"),
                         "mode": mode,
                         "seed": seed,
                         "path": str(path),
@@ -95,34 +79,24 @@ def main():
     meta.write_text(json.dumps(manifest, indent=2))
     print(f"Saved {len(manifest)} images to {out_dir}")
 
-    import subprocess
-
-    for script, extra in (
-        (
-            "evaluate_images.py",
-            [
-                "--manifest",
-                str(meta),
-                "--output",
-                str(ROOT / "results" / "image_eval.csv"),
-                "--device",
-                args.device,
-            ],
-        ),
-        ("make_qualitative_grid.py", []),
-    ):
-        cmd = [sys.executable, str(ROOT / "scripts" / script)] + extra
-        print("Running:", " ".join(cmd))
-        subprocess.run(cmd, cwd=ROOT, check=True)
-
-    print("Stage B complete. Download results/ and craft-gc-paper/figures/")
+    subprocess.run(
+        [
+            sys.executable,
+            str(ROOT / "scripts" / "evaluate_images.py"),
+            "--manifest",
+            str(meta),
+            "--output",
+            str(ROOT / "results" / "image_eval.csv"),
+            "--device",
+            args.device,
+        ],
+        cwd=ROOT,
+        check=True,
+    )
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "make_qualitative_grid.py")], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "summarize_results.py")], cwd=ROOT, check=True)
+    print("Stage B complete.")
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except SystemExit as e:
-        raise
-    except Exception as e:
-        print(f"FATAL: {type(e).__name__}: {e}", file=sys.stderr)
-        raise SystemExit(1) from e
+    main()

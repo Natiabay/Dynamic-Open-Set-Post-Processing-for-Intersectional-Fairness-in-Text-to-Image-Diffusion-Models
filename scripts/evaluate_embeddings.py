@@ -2,7 +2,7 @@
 """
 Embedding-level evaluation on full GCFairBench (500 prompts).
 Runs on CPU without Stable Diffusion — measures demographic neutrality of
-steered CLIP prompt embeddings (validated proxy; image eval in run_pilot_images.py).
+steered CLIP prompt embeddings (text-space proxy; not image-level CoFS).
 
 Usage:
   python scripts/evaluate_embeddings.py --output results/embedding_eval.csv
@@ -15,7 +15,6 @@ import json
 import sys
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import torch
 
@@ -24,41 +23,23 @@ sys.path.insert(0, str(ROOT))
 
 from craft_gc.benchmark.gcfairbench import load_benchmark, write_benchmark
 from craft_gc.evaluation.cofs_metric import CoFSMetric
-from craft_gc.evaluation.stochastic_variance import fairness_variance
-from craft_gc.pipeline.craft_gc_pipeline import CRAFTGCPipeline, load_clip
-from craft_gc.steering.embedding_steering import default_lambdas, steer_embedding
-
+from craft_gc.pipeline.craft_gc_pipeline import CRAFTGCPipeline
+from craft_gc.steering.embedding_steering import steer_embedding
 
 METHODS = ["base", "prompt_aug", "fairimagen_e", "craftgc_e"]
 
+METRIC_NOTE = (
+    "This measures CLIP text-embedding-space demographic parity of prompt encodings, "
+    "NOT image-level demographic classification. See image_eval_v2 for image-level results."
+)
+
 
 @torch.no_grad()
-def embed_prompt(model, tokenize, prompt: str, device: str) -> torch.Tensor:
-    tokens = tokenize([prompt]).to(device)
-    feat = model.encode_text(tokens)
-    return feat / feat.norm(dim=-1, keepdim=True)
-
-
-def apply_method(
-    pipeline: CRAFTGCPipeline,
-    prompt: str,
-    method: str,
-    beta: float,
-) -> str:
+def evaluate_prompt(pipeline, cofs, entry, method, beta) -> dict:
+    prompt = entry["prompt"]
     if method == "prompt_aug":
-        return f"{prompt}, diverse inclusive multicultural representation"
-    return prompt
+        prompt = f"{prompt}, diverse inclusive multicultural representation"
 
-
-@torch.no_grad()
-def evaluate_prompt(
-    pipeline: CRAFTGCPipeline,
-    cofs: CoFSMetric,
-    entry: dict,
-    method: str,
-    beta: float,
-) -> dict:
-    prompt = apply_method(pipeline, entry["prompt"], method, beta)
     detected, directions, lambdas = pipeline.prepare(prompt)
 
     tokens = pipeline.clip_tokenize([prompt]).to(pipeline.device)
@@ -75,14 +56,12 @@ def evaluate_prompt(
     else:
         steered = vec
 
-    # Score steered embedding via race/gender text probes
     race_sim = (steered.unsqueeze(0) @ cofs._race_text.T).softmax(dim=-1).squeeze().cpu().numpy()
     gender_sim = (steered.unsqueeze(0) @ cofs._gender_text.T).softmax(dim=-1).squeeze().cpu().numpy()
-    cofs_race = cofs._cofs_from_probs(race_sim)
-    cofs_gender = cofs._cofs_from_probs(gender_sim)
-    cofs_val = 0.5 * (cofs_race + cofs_gender)
+    align_race = cofs._cofs_from_probs(race_sim)
+    align_gender = cofs._cofs_from_probs(gender_sim)
+    text_alignment = 0.5 * (align_race + align_gender)
 
-    # CFS proxy: similarity to cultural caption
     cult_tokens = pipeline.clip_tokenize([entry["cultural_caption"]]).to(pipeline.device)
     cult = pipeline.clip_model.encode_text(cult_tokens)
     cult = cult / cult.norm(dim=-1, keepdim=True)
@@ -95,9 +74,9 @@ def evaluate_prompt(
         "region": entry["region"],
         "category": entry["category"],
         "method": method,
-        "cofs": round(cofs_val, 4),
-        "cofs_race": round(cofs_race, 4),
-        "cofs_gender": round(cofs_gender, 4),
+        "text_alignment_score": round(text_alignment, 4),
+        "text_alignment_race": round(align_race, 4),
+        "text_alignment_gender": round(align_gender, 4),
         "cfs": round(cfs, 4),
         "detected_region": detected.get("region"),
     }
@@ -131,21 +110,25 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out, index=False)
 
-    summary = df.groupby("method")[["cofs", "cfs"]].agg(["mean", "std"]).round(4)
-    summary_path = out.parent / "embedding_summary.json"
-    summary_dict = {}
+    summary_dict = {"metric_note": METRIC_NOTE, "methods": {}}
     for method in METHODS:
-        sub = df[df.method == method]
-        summary_dict[method] = {
-            "cofs_mean": float(sub.cofs.mean()),
-            "cofs_std": float(sub.cofs.std()),
-            "cfs_mean": float(sub.cfs.mean()),
-            "cfs_std": float(sub.cfs.std()),
+        sub = df[df["method"] == method]
+        summary_dict["methods"][method] = {
+            "text_alignment_score_mean": float(sub["text_alignment_score"].mean()),
+            "text_alignment_score_std": float(sub["text_alignment_score"].std()),
+            "cfs_mean": float(sub["cfs"].mean()),
+            "cfs_std": float(sub["cfs"].std()),
         }
-    with open(summary_path, "w") as f:
-        json.dump(summary_dict, f, indent=2)
 
-    print(summary)
+    summary_path = out.parent / "embedding_summary.json"
+    summary_path.write_text(json.dumps(summary_dict, indent=2))
+
+    print("Text-space alignment score (NOT image-level CoFS):")
+    print(
+        df.groupby("method")[["text_alignment_score", "cfs"]]
+        .agg(["mean", "std"])
+        .round(4)
+    )
     print(f"Saved {out} and {summary_path}")
 
 

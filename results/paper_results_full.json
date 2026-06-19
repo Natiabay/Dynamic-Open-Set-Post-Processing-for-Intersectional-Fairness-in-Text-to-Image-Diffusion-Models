@@ -1,0 +1,88 @@
+{
+  "trial_note": "Trial 2 uses SD-native 768-d CAS steering and stratified sampling.",
+  "stage_a": {
+    "stage": "A",
+    "main_table": [
+      {
+        "method_key": "base",
+        "method": "Base SD",
+        "cofs": 0.9971,
+        "cofs_std": 0.001,
+        "cfs": 0.0,
+        "n": 500
+      },
+      {
+        "method_key": "prompt_aug",
+        "method": "PromptAug",
+        "cofs": 0.9974,
+        "cofs_std": 0.0008,
+        "cfs": 0.0,
+        "n": 500
+      },
+      {
+        "method_key": "fairimagen_e",
+        "method": "FairImagen-E",
+        "cofs": 0.9971,
+        "cofs_std": 0.001,
+        "cfs": -0.0015,
+        "n": 500
+      },
+      {
+        "method_key": "craftgc_e",
+        "method": "CRAFT-GC-E",
+        "cofs": 0.9971,
+        "cofs_std": 0.001,
+        "cfs": -0.0021,
+        "n": 500
+      }
+    ]
+  },
+  "stage_b": {
+    "stage": "B",
+    "main_table": [
+      {
+        "method_key": "base",
+        "method": "Base SD",
+        "cofs": 0.9956,
+        "cofs_std": 0.0021,
+        "clipscore": 30.64,
+        "cfs": 0.0,
+        "n": 250
+      },
+      {
+        "method_key": "prompt_aug",
+        "method": "PromptAug",
+        "cofs": 0.9959,
+        "cofs_std": 0.0019,
+        "clipscore": 29.15,
+        "cfs": -0.0119,
+        "n": 250
+      },
+      {
+        "method_key": "fairimagen",
+        "method": "FairImagen",
+        "cofs": 0.9956,
+        "cofs_std": 0.0021,
+        "clipscore": 30.64,
+        "cfs": 0.0,
+        "n": 250
+      },
+      {
+        "method_key": "craftgc",
+        "method": "CRAFT-GC",
+        "cofs": 0.9956,
+        "cofs_std": 0.0021,
+        "clipscore": 30.64,
+        "cfs": 0.0,
+        "n": 250
+      }
+    ],
+    "by_region": {
+      "sub_saharan_africa": {
+        "base": 0.9956,
+        "craftgc": 0.9956
+      }
+    },
+    "n_prompts": 50
+  }
+}

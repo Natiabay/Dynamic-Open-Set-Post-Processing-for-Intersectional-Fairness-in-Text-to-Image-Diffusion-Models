@@ -21,15 +21,15 @@ def build_prompt_entry(region_key: str, category: str, template: str, idx: int) 
     country = data["countries"][idx % len(data["countries"])]
 
     if category == "professions":
-        prompt = f"A high-quality photo of {template} {loc}"
+        prompt = f"{template.capitalize()} {loc}"
     elif category == "social_roles":
-        prompt = f"A photo of {template} {loc}"
+        prompt = f"{template.capitalize()} {loc}"
     elif category == "daily_activities":
-        prompt = f"A photo of a person {template} {loc}"
+        prompt = f"A person {template} {loc}"
     elif category == "cultural_practices":
-        prompt = f"A photo of people {template} {loc}"
+        prompt = f"People {template} {loc}"
     else:
-        prompt = f"A photo of a professional {template} {loc}"
+        prompt = f"A professional {template} {loc}"
 
     cultural_caption = f"{prompt}, authentic {country} cultural context"
     return {

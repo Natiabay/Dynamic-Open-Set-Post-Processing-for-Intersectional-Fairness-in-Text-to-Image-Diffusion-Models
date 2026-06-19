@@ -4,799 +4,799 @@
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Brazil cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_001",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a nurse in Mexico City",
-    "cultural_caption": "A high-quality photo of a nurse in Mexico City, authentic Mexico cultural context"
+    "prompt": "A nurse in Mexico City",
+    "cultural_caption": "A nurse in Mexico City, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_002",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a software engineer in Bogotá",
-    "cultural_caption": "A high-quality photo of a software engineer in Bogotá, authentic Colombia cultural context"
+    "prompt": "A software engineer in Bogotá",
+    "cultural_caption": "A software engineer in Bogotá, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_003",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a lawyer in Lima",
-    "cultural_caption": "A high-quality photo of a lawyer in Lima, authentic Peru cultural context"
+    "prompt": "A lawyer in Lima",
+    "cultural_caption": "A lawyer in Lima, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_004",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a teacher in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a teacher in Buenos Aires, authentic Argentina cultural context"
+    "prompt": "A teacher in Buenos Aires",
+    "cultural_caption": "A teacher in Buenos Aires, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_005",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a scientist wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a scientist wearing indigenous textiles, authentic Brazil cultural context"
+    "prompt": "A scientist wearing indigenous textiles",
+    "cultural_caption": "A scientist wearing indigenous textiles, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_006",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a politician in São Paulo",
-    "cultural_caption": "A high-quality photo of a politician in São Paulo, authentic Mexico cultural context"
+    "prompt": "A politician in São Paulo",
+    "cultural_caption": "A politician in São Paulo, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_007",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a CEO in Mexico City",
-    "cultural_caption": "A high-quality photo of a CEO in Mexico City, authentic Colombia cultural context"
+    "prompt": "A ceo in Mexico City",
+    "cultural_caption": "A ceo in Mexico City, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_008",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of an architect in Bogotá",
-    "cultural_caption": "A high-quality photo of an architect in Bogotá, authentic Peru cultural context"
+    "prompt": "An architect in Bogotá",
+    "cultural_caption": "An architect in Bogotá, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_009",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a judge in Lima",
-    "cultural_caption": "A high-quality photo of a judge in Lima, authentic Argentina cultural context"
+    "prompt": "A judge in Lima",
+    "cultural_caption": "A judge in Lima, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_010",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a professor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a professor in Buenos Aires, authentic Brazil cultural context"
+    "prompt": "A professor in Buenos Aires",
+    "cultural_caption": "A professor in Buenos Aires, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_011",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a journalist wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a journalist wearing indigenous textiles, authentic Mexico cultural context"
+    "prompt": "A journalist wearing indigenous textiles",
+    "cultural_caption": "A journalist wearing indigenous textiles, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_012",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a pilot in São Paulo",
-    "cultural_caption": "A high-quality photo of a pilot in São Paulo, authentic Colombia cultural context"
+    "prompt": "A pilot in São Paulo",
+    "cultural_caption": "A pilot in São Paulo, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_013",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a chef in Mexico City",
-    "cultural_caption": "A high-quality photo of a chef in Mexico City, authentic Peru cultural context"
+    "prompt": "A chef in Mexico City",
+    "cultural_caption": "A chef in Mexico City, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_014",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of an artist in Bogotá",
-    "cultural_caption": "A high-quality photo of an artist in Bogotá, authentic Argentina cultural context"
+    "prompt": "An artist in Bogotá",
+    "cultural_caption": "An artist in Bogotá, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_015",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a police officer in Lima",
-    "cultural_caption": "A high-quality photo of a police officer in Lima, authentic Brazil cultural context"
+    "prompt": "A police officer in Lima",
+    "cultural_caption": "A police officer in Lima, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_016",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a farmer in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a farmer in Buenos Aires, authentic Mexico cultural context"
+    "prompt": "A farmer in Buenos Aires",
+    "cultural_caption": "A farmer in Buenos Aires, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_017",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a business owner wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a business owner wearing indigenous textiles, authentic Colombia cultural context"
+    "prompt": "A business owner wearing indigenous textiles",
+    "cultural_caption": "A business owner wearing indigenous textiles, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_018",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a librarian in São Paulo",
-    "cultural_caption": "A high-quality photo of a librarian in São Paulo, authentic Peru cultural context"
+    "prompt": "A librarian in São Paulo",
+    "cultural_caption": "A librarian in São Paulo, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_019",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a social worker in Mexico City",
-    "cultural_caption": "A high-quality photo of a social worker in Mexico City, authentic Argentina cultural context"
+    "prompt": "A social worker in Mexico City",
+    "cultural_caption": "A social worker in Mexico City, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_social_roles_020",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a community leader in Bogotá",
-    "cultural_caption": "A photo of a community leader in Bogotá, authentic Brazil cultural context"
+    "prompt": "A community leader in Bogotá",
+    "cultural_caption": "A community leader in Bogotá, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_social_roles_021",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a student in Lima",
-    "cultural_caption": "A photo of a student in Lima, authentic Mexico cultural context"
+    "prompt": "A student in Lima",
+    "cultural_caption": "A student in Lima, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_social_roles_022",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a parent in Buenos Aires",
-    "cultural_caption": "A photo of a parent in Buenos Aires, authentic Colombia cultural context"
+    "prompt": "A parent in Buenos Aires",
+    "cultural_caption": "A parent in Buenos Aires, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_social_roles_023",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a volunteer wearing indigenous textiles",
-    "cultural_caption": "A photo of a volunteer wearing indigenous textiles, authentic Peru cultural context"
+    "prompt": "A volunteer wearing indigenous textiles",
+    "cultural_caption": "A volunteer wearing indigenous textiles, authentic Peru cultural context"
   },
   {
     "id": "LATAM_social_roles_024",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a mentor in São Paulo",
-    "cultural_caption": "A photo of a mentor in São Paulo, authentic Argentina cultural context"
+    "prompt": "A mentor in São Paulo",
+    "cultural_caption": "A mentor in São Paulo, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_social_roles_025",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a caregiver in Mexico City",
-    "cultural_caption": "A photo of a caregiver in Mexico City, authentic Brazil cultural context"
+    "prompt": "A caregiver in Mexico City",
+    "cultural_caption": "A caregiver in Mexico City, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_social_roles_026",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of an activist in Bogotá",
-    "cultural_caption": "A photo of an activist in Bogotá, authentic Mexico cultural context"
+    "prompt": "An activist in Bogotá",
+    "cultural_caption": "An activist in Bogotá, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_social_roles_027",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "social_roles",
-    "prompt": "A photo of a researcher in Lima",
-    "cultural_caption": "A photo of a researcher in Lima, authentic Colombia cultural context"
+    "prompt": "A researcher in Lima",
+    "cultural_caption": "A researcher in Lima, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_daily_activities_028",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person shopping at a local market in Buenos Aires",
-    "cultural_caption": "A photo of a person shopping at a local market in Buenos Aires, authentic Peru cultural context"
+    "prompt": "A person shopping at a local market in Buenos Aires",
+    "cultural_caption": "A person shopping at a local market in Buenos Aires, authentic Peru cultural context"
   },
   {
     "id": "LATAM_daily_activities_029",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person commuting to work wearing indigenous textiles",
-    "cultural_caption": "A photo of a person commuting to work wearing indigenous textiles, authentic Argentina cultural context"
+    "prompt": "A person commuting to work wearing indigenous textiles",
+    "cultural_caption": "A person commuting to work wearing indigenous textiles, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_daily_activities_030",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person cooking a meal in São Paulo",
-    "cultural_caption": "A photo of a person cooking a meal in São Paulo, authentic Brazil cultural context"
+    "prompt": "A person cooking a meal in São Paulo",
+    "cultural_caption": "A person cooking a meal in São Paulo, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_daily_activities_031",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person reading in a park in Mexico City",
-    "cultural_caption": "A photo of a person reading in a park in Mexico City, authentic Mexico cultural context"
+    "prompt": "A person reading in a park in Mexico City",
+    "cultural_caption": "A person reading in a park in Mexico City, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_daily_activities_032",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person playing football in Bogotá",
-    "cultural_caption": "A photo of a person playing football in Bogotá, authentic Colombia cultural context"
+    "prompt": "A person playing football in Bogotá",
+    "cultural_caption": "A person playing football in Bogotá, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_daily_activities_033",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "daily_activities",
-    "prompt": "A photo of a person attending a wedding in Lima",
-    "cultural_caption": "A photo of a person attending a wedding in Lima, authentic Peru cultural context"
+    "prompt": "A person attending a wedding in Lima",
+    "cultural_caption": "A person attending a wedding in Lima, authentic Peru cultural context"
   },
   {
     "id": "LATAM_cultural_practices_034",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "cultural_practices",
-    "prompt": "A photo of people celebrating a festival in Buenos Aires",
-    "cultural_caption": "A photo of people celebrating a festival in Buenos Aires, authentic Argentina cultural context"
+    "prompt": "People celebrating a festival in Buenos Aires",
+    "cultural_caption": "People celebrating a festival in Buenos Aires, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_cultural_practices_035",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "cultural_practices",
-    "prompt": "A photo of people performing traditional music wearing indigenous textiles",
-    "cultural_caption": "A photo of people performing traditional music wearing indigenous textiles, authentic Brazil cultural context"
+    "prompt": "People performing traditional music wearing indigenous textiles",
+    "cultural_caption": "People performing traditional music wearing indigenous textiles, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_cultural_practices_036",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "cultural_practices",
-    "prompt": "A photo of people preparing traditional food in São Paulo",
-    "cultural_caption": "A photo of people preparing traditional food in São Paulo, authentic Mexico cultural context"
+    "prompt": "People preparing traditional food in São Paulo",
+    "cultural_caption": "People preparing traditional food in São Paulo, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_cultural_practices_037",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "cultural_practices",
-    "prompt": "A photo of people gathering for coffee ceremony in Mexico City",
-    "cultural_caption": "A photo of people gathering for coffee ceremony in Mexico City, authentic Colombia cultural context"
+    "prompt": "People gathering for coffee ceremony in Mexico City",
+    "cultural_caption": "People gathering for coffee ceremony in Mexico City, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_public_settings_038",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "public_settings",
-    "prompt": "A photo of a professional in a hospital in Bogotá",
-    "cultural_caption": "A photo of a professional in a hospital in Bogotá, authentic Peru cultural context"
+    "prompt": "A professional in a hospital in Bogotá",
+    "cultural_caption": "A professional in a hospital in Bogotá, authentic Peru cultural context"
   },
   {
     "id": "LATAM_public_settings_039",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "public_settings",
-    "prompt": "A photo of a professional in a university in Lima",
-    "cultural_caption": "A photo of a professional in a university in Lima, authentic Argentina cultural context"
+    "prompt": "A professional in a university in Lima",
+    "cultural_caption": "A professional in a university in Lima, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_public_settings_040",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "public_settings",
-    "prompt": "A photo of a professional in a courthouse in Buenos Aires",
-    "cultural_caption": "A photo of a professional in a courthouse in Buenos Aires, authentic Brazil cultural context"
+    "prompt": "A professional in a courthouse in Buenos Aires",
+    "cultural_caption": "A professional in a courthouse in Buenos Aires, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_public_settings_041",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "public_settings",
-    "prompt": "A photo of a professional in a busy street wearing indigenous textiles",
-    "cultural_caption": "A photo of a professional in a busy street wearing indigenous textiles, authentic Mexico cultural context"
+    "prompt": "A professional in a busy street wearing indigenous textiles",
+    "cultural_caption": "A professional in a busy street wearing indigenous textiles, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_public_settings_042",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "public_settings",
-    "prompt": "A photo of a professional in a rural village in São Paulo",
-    "cultural_caption": "A photo of a professional in a rural village in São Paulo, authentic Colombia cultural context"
+    "prompt": "A professional in a rural village in São Paulo",
+    "cultural_caption": "A professional in a rural village in São Paulo, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_043",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Peru cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_044",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Argentina cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_045",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Brazil cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_046",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Mexico cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_047",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Colombia cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_048",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Peru cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_049",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Argentina cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_050",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Brazil cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_051",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Mexico cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_052",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Colombia cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_053",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Peru cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_054",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Argentina cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_055",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Brazil cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_056",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Mexico cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_057",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Colombia cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_058",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Peru cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_059",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Argentina cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_060",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Brazil cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_061",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Mexico cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_062",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Colombia cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_063",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Peru cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_064",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Argentina cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_065",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Brazil cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_066",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Mexico cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_067",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Colombia cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_068",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Peru cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_069",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Argentina cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_070",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Brazil cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_071",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Mexico cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_072",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Colombia cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_073",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Peru cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_074",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Argentina cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_075",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Brazil cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_076",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Mexico cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_077",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Colombia cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_078",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Peru cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_079",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Argentina cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_080",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Brazil cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_081",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Mexico cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_082",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Colombia cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_083",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Peru cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_084",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Argentina cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_085",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Brazil cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_086",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Mexico cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_087",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Colombia cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_088",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Peru cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_089",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Argentina cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_090",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Brazil cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_091",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Mexico cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_092",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Colombia cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_093",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Peru cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_094",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Buenos Aires",
-    "cultural_caption": "A high-quality photo of a doctor in Buenos Aires, authentic Argentina cultural context"
+    "prompt": "A doctor in Buenos Aires",
+    "cultural_caption": "A doctor in Buenos Aires, authentic Argentina cultural context"
   },
   {
     "id": "LATAM_professions_095",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor wearing indigenous textiles",
-    "cultural_caption": "A high-quality photo of a doctor wearing indigenous textiles, authentic Brazil cultural context"
+    "prompt": "A doctor wearing indigenous textiles",
+    "cultural_caption": "A doctor wearing indigenous textiles, authentic Brazil cultural context"
   },
   {
     "id": "LATAM_professions_096",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in São Paulo",
-    "cultural_caption": "A high-quality photo of a doctor in São Paulo, authentic Mexico cultural context"
+    "prompt": "A doctor in São Paulo",
+    "cultural_caption": "A doctor in São Paulo, authentic Mexico cultural context"
   },
   {
     "id": "LATAM_professions_097",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Mexico City",
-    "cultural_caption": "A high-quality photo of a doctor in Mexico City, authentic Colombia cultural context"
+    "prompt": "A doctor in Mexico City",
+    "cultural_caption": "A doctor in Mexico City, authentic Colombia cultural context"
   },
   {
     "id": "LATAM_professions_098",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Bogotá",
-    "cultural_caption": "A high-quality photo of a doctor in Bogotá, authentic Peru cultural context"
+    "prompt": "A doctor in Bogotá",
+    "cultural_caption": "A doctor in Bogotá, authentic Peru cultural context"
   },
   {
     "id": "LATAM_professions_099",
     "region": "latin_america",
     "region_code": "LATAM",
     "category": "professions",
-    "prompt": "A high-quality photo of a doctor in Lima",
-    "cultural_caption": "A high-quality photo of a doctor in Lima, authentic Argentina cultural context"
+    "prompt": "A doctor in Lima",
+    "cultural_caption": "A doctor in Lima, authentic Argentina cultural context"
   }
 ]

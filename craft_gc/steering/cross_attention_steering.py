@@ -1,4 +1,4 @@
-"""Cross-Attention Steering processor for Diffusers UNet."""
+"""Cross-attention steering on SD text encoder states (768-d)."""
 
 from __future__ import annotations
 
@@ -11,23 +11,42 @@ from craft_gc.steering.timestep_scheduler import TimestepScheduler
 
 
 class CASAttnProcessor:
-    """Steers cross-attention keys by removing bias direction components."""
+    """Remove bias components from cross-attention encoder states before K/V projection."""
 
     def __init__(
         self,
         bias_directions: Dict[str, torch.Tensor],
         lambda_weights: Dict[str, float],
         scheduler: TimestepScheduler,
-        hidden_dim: int,
+        text_dim: int = 768,
     ):
         self.bias_directions = {k: v.float() for k, v in bias_directions.items()}
         self.lambda_weights = lambda_weights
         self.scheduler = scheduler
-        self.hidden_dim = hidden_dim
+        self.text_dim = text_dim
         self.current_step = 0
 
     def set_step(self, step: int) -> None:
         self.current_step = step
+
+    def _steer_encoder(self, enc: torch.Tensor) -> torch.Tensor:
+        beta = self.scheduler.get_beta(self.current_step)
+        if beta < 1e-6:
+            return enc
+
+        out = enc.clone()
+        for name, direction in self.bias_directions.items():
+            lam = self.lambda_weights.get(name, 0.0)
+            if lam <= 0:
+                continue
+            d = direction.to(out.device)
+            if d.shape[-1] != out.shape[-1]:
+                continue
+            d = d.view(1, 1, -1)
+            d_norm_sq = (d * d).sum(dim=-1, keepdim=True) + 1e-8
+            proj = (out * d).sum(dim=-1, keepdim=True) / d_norm_sq
+            out = out - beta * lam * proj * d
+        return out
 
     def __call__(
         self,
@@ -44,12 +63,12 @@ class CASAttnProcessor:
 
         if encoder_hidden_states is None:
             encoder_hidden_states = hidden_states
+        else:
+            encoder_hidden_states = self._steer_encoder(encoder_hidden_states)
 
         query = attn.to_q(hidden_states)
         key = attn.to_k(encoder_hidden_states)
         value = attn.to_v(encoder_hidden_states)
-
-        key = self._steer_keys(key)
 
         inner_dim = key.shape[-1]
         heads = getattr(attn, "heads", getattr(attn, "num_heads", 8))
@@ -78,22 +97,3 @@ class CASAttnProcessor:
             hidden_states = hidden_states / scale
 
         return hidden_states
-
-    def _steer_keys(self, key: torch.Tensor) -> torch.Tensor:
-        beta = self.scheduler.get_beta(self.current_step)
-        if beta < 1e-6:
-            return key
-
-        out = key.clone()
-        for name, direction in self.bias_directions.items():
-            lam = self.lambda_weights.get(name, 0.0)
-            if lam <= 0:
-                continue
-            d = direction.to(out.device)
-            if d.numel() != out.shape[-1]:
-                continue
-            d = d.view(1, 1, -1)
-            d_norm_sq = (d * d).sum(dim=-1, keepdim=True) + 1e-8
-            proj = (out * d).sum(dim=-1, keepdim=True) / d_norm_sq
-            out = out - beta * lam * proj * d
-        return out
