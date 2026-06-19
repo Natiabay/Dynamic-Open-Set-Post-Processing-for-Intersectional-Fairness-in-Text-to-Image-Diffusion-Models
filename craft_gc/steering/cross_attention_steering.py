@@ -52,13 +52,14 @@ class CASAttnProcessor:
         key = self._steer_keys(key)
 
         inner_dim = key.shape[-1]
-        head_dim = inner_dim // attn.heads
+        heads = getattr(attn, "heads", getattr(attn, "num_heads", 8))
+        head_dim = inner_dim // heads
 
-        query = query.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
-        key = key.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
-        value = value.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
+        query = query.view(batch_size, -1, heads, head_dim).transpose(1, 2)
+        key = key.view(batch_size, -1, heads, head_dim).transpose(1, 2)
+        value = value.view(batch_size, -1, heads, head_dim).transpose(1, 2)
 
-        if attention_mask is not None:
+        if attention_mask is not None and hasattr(attn, "prepare_attention_mask"):
             attention_mask = attn.prepare_attention_mask(
                 attention_mask, sequence_length, batch_size
             )
@@ -70,9 +71,11 @@ class CASAttnProcessor:
         hidden_states = attn.to_out[0](hidden_states)
         hidden_states = attn.to_out[1](hidden_states)
 
-        if attn.residual_connection:
+        if getattr(attn, "residual_connection", False):
             hidden_states = hidden_states + residual
-        hidden_states = hidden_states / attn.resample_scale_with_output_factor
+        scale = getattr(attn, "resample_scale_with_output_factor", 1.0)
+        if scale and scale != 1.0:
+            hidden_states = hidden_states / scale
 
         return hidden_states
 
