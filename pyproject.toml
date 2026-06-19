@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "craft-gc"
+version = "0.1.0"
+description = "CRAFT-GC: Cross-Attention Fairness Steering with Geo-Cultural Knowledge Integration"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Natnael Abayneh"},
+  {name = "Abiy Alemu"},
+]
+dependencies = [
+  "torch>=2.0",
+  "open-clip-torch>=2.24",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+gpu = ["diffusers>=0.27", "transformers>=4.40", "accelerate>=0.28"]
+viz = ["matplotlib>=3.7", "seaborn>=0.13"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["craft_gc*"]

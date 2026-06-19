@@ -1,0 +1,34 @@
+% Springer Nature manuscript wrapper
+% Requires sn-jnl.cls from Springer (see SPRINGER.md)
+\documentclass[pdflatex,sn-mathphys-num,Numbered]{sn-jnl}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit}
+
+\title[CRAFT-GC]{CRAFT-GC: Cross-Attention Fairness Steering with Geo-Cultural Knowledge Integration for Training-Free Bias Mitigation in Text-to-Image Diffusion Models}
+
+\author*[1]{\fnm{Natnael} \sur{Abayneh}}\email{natnael.abayneh-ug@aau.edu.et}
+\author[1]{\fnm{Abiy} \sur{Alemu}}\email{abiyalemu@aau.edu.et}
+
+\affil*[1]{\orgdiv{MSc in Artificial Intelligence}, \orgname{Addis Ababa University}, \orgaddress{\city{Addis Ababa}, \country{Ethiopia}}}
+
+\abstract{Same abstract as main.tex — compile from main.tex or copy abstract block.}
+
+\keywords{Text-to-image generation, algorithmic fairness, cross-attention steering, geo-cultural bias, diffusion models}
+
+\begin{document}
+\maketitle
+
+% Option A: \input{main-body.tex} after splitting content
+% Option B: copy sections from main.tex (Introduction through Conclusion)
+
+\section{Introduction}
+See \texttt{main.tex} for the complete camera-ready manuscript. This wrapper uses Springer \texttt{sn-jnl} formatting once \texttt{sn-jnl.cls} is installed.
+
+\bibliography{references}
+\end{document}

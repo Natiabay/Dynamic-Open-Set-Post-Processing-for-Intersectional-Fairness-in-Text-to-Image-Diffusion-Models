@@ -1,0 +1,24 @@
+{
+  "ablation": [
+    {
+      "setting": "beta_0.3",
+      "cofs": 0.818,
+      "cofs_std": 0.036
+    },
+    {
+      "setting": "beta_0.8",
+      "cofs": 0.822,
+      "cofs_std": 0.036
+    },
+    {
+      "setting": "beta_1.0",
+      "cofs": 0.823,
+      "cofs_std": 0.036
+    },
+    {
+      "setting": "no_geo",
+      "cofs": 0.824,
+      "cofs_std": 0.036
+    }
+  ]
+}

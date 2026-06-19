@@ -1,0 +1,802 @@
+[
+  {
+    "id": "MENA_professions_000",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_001",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a nurse in Marrakech",
+    "cultural_caption": "A high-quality photo of a nurse in Marrakech, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_002",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a software engineer in Amman",
+    "cultural_caption": "A high-quality photo of a software engineer in Amman, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_003",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a lawyer in Tunis",
+    "cultural_caption": "A high-quality photo of a lawyer in Tunis, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_004",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a teacher in Beirut",
+    "cultural_caption": "A high-quality photo of a teacher in Beirut, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_005",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a scientist wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a scientist wearing a djellaba, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_006",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a politician in Cairo",
+    "cultural_caption": "A high-quality photo of a politician in Cairo, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_007",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a CEO in Marrakech",
+    "cultural_caption": "A high-quality photo of a CEO in Marrakech, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_008",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an architect in Amman",
+    "cultural_caption": "A high-quality photo of an architect in Amman, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_009",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a judge in Tunis",
+    "cultural_caption": "A high-quality photo of a judge in Tunis, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_010",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a professor in Beirut",
+    "cultural_caption": "A high-quality photo of a professor in Beirut, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_011",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a journalist wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a journalist wearing a djellaba, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_012",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a pilot in Cairo",
+    "cultural_caption": "A high-quality photo of a pilot in Cairo, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_013",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a chef in Marrakech",
+    "cultural_caption": "A high-quality photo of a chef in Marrakech, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_014",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an artist in Amman",
+    "cultural_caption": "A high-quality photo of an artist in Amman, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_015",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a police officer in Tunis",
+    "cultural_caption": "A high-quality photo of a police officer in Tunis, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_016",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a farmer in Beirut",
+    "cultural_caption": "A high-quality photo of a farmer in Beirut, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_017",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a business owner wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a business owner wearing a djellaba, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_018",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a librarian in Cairo",
+    "cultural_caption": "A high-quality photo of a librarian in Cairo, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_019",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a social worker in Marrakech",
+    "cultural_caption": "A high-quality photo of a social worker in Marrakech, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_social_roles_020",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a community leader in Amman",
+    "cultural_caption": "A photo of a community leader in Amman, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_social_roles_021",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a student in Tunis",
+    "cultural_caption": "A photo of a student in Tunis, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_social_roles_022",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a parent in Beirut",
+    "cultural_caption": "A photo of a parent in Beirut, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_social_roles_023",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a volunteer wearing a djellaba",
+    "cultural_caption": "A photo of a volunteer wearing a djellaba, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_social_roles_024",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a mentor in Cairo",
+    "cultural_caption": "A photo of a mentor in Cairo, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_social_roles_025",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a caregiver in Marrakech",
+    "cultural_caption": "A photo of a caregiver in Marrakech, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_social_roles_026",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of an activist in Amman",
+    "cultural_caption": "A photo of an activist in Amman, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_social_roles_027",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "social_roles",
+    "prompt": "A photo of a researcher in Tunis",
+    "cultural_caption": "A photo of a researcher in Tunis, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_028",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person shopping at a local market in Beirut",
+    "cultural_caption": "A photo of a person shopping at a local market in Beirut, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_029",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person commuting to work wearing a djellaba",
+    "cultural_caption": "A photo of a person commuting to work wearing a djellaba, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_030",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person cooking a meal in Cairo",
+    "cultural_caption": "A photo of a person cooking a meal in Cairo, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_031",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person reading in a park in Marrakech",
+    "cultural_caption": "A photo of a person reading in a park in Marrakech, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_032",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person playing football in Amman",
+    "cultural_caption": "A photo of a person playing football in Amman, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_daily_activities_033",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person attending a wedding in Tunis",
+    "cultural_caption": "A photo of a person attending a wedding in Tunis, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_cultural_practices_034",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people celebrating a festival in Beirut",
+    "cultural_caption": "A photo of people celebrating a festival in Beirut, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_cultural_practices_035",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people performing traditional music wearing a djellaba",
+    "cultural_caption": "A photo of people performing traditional music wearing a djellaba, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_cultural_practices_036",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people preparing traditional food in Cairo",
+    "cultural_caption": "A photo of people preparing traditional food in Cairo, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_cultural_practices_037",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people gathering for coffee ceremony in Marrakech",
+    "cultural_caption": "A photo of people gathering for coffee ceremony in Marrakech, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_public_settings_038",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a hospital in Amman",
+    "cultural_caption": "A photo of a professional in a hospital in Amman, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_public_settings_039",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a university in Tunis",
+    "cultural_caption": "A photo of a professional in a university in Tunis, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_public_settings_040",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a courthouse in Beirut",
+    "cultural_caption": "A photo of a professional in a courthouse in Beirut, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_public_settings_041",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a busy street wearing a djellaba",
+    "cultural_caption": "A photo of a professional in a busy street wearing a djellaba, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_public_settings_042",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a rural village in Cairo",
+    "cultural_caption": "A photo of a professional in a rural village in Cairo, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_043",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_044",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_045",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_046",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_047",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_048",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_049",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_050",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_051",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_052",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_053",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_054",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_055",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_056",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_057",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_058",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_059",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_060",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_061",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_062",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_063",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_064",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_065",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_066",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_067",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_068",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_069",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_070",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_071",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_072",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_073",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_074",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_075",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_076",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_077",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_078",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_079",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_080",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_081",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_082",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_083",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_084",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_085",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_086",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_087",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_088",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_089",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_090",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_091",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_092",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_093",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_094",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Beirut",
+    "cultural_caption": "A high-quality photo of a doctor in Beirut, authentic Lebanon cultural context"
+  },
+  {
+    "id": "MENA_professions_095",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a djellaba",
+    "cultural_caption": "A high-quality photo of a doctor wearing a djellaba, authentic Egypt cultural context"
+  },
+  {
+    "id": "MENA_professions_096",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Cairo",
+    "cultural_caption": "A high-quality photo of a doctor in Cairo, authentic Morocco cultural context"
+  },
+  {
+    "id": "MENA_professions_097",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Marrakech",
+    "cultural_caption": "A high-quality photo of a doctor in Marrakech, authentic Jordan cultural context"
+  },
+  {
+    "id": "MENA_professions_098",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Amman",
+    "cultural_caption": "A high-quality photo of a doctor in Amman, authentic Tunisia cultural context"
+  },
+  {
+    "id": "MENA_professions_099",
+    "region": "mena",
+    "region_code": "MENA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Tunis",
+    "cultural_caption": "A high-quality photo of a doctor in Tunis, authentic Lebanon cultural context"
+  }
+]

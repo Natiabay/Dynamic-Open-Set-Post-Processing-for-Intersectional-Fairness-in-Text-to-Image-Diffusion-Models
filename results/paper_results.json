@@ -1,0 +1,74 @@
+{
+  "evaluation_type": "clip_embedding",
+  "main_table": [
+    {
+      "method_key": "base",
+      "method": "Base",
+      "cofs": 0.9971,
+      "cofs_std": 0.001,
+      "cfs": 0.0,
+      "cfs_std": 0.0,
+      "n": 500
+    },
+    {
+      "method_key": "prompt_aug",
+      "method": "PromptAug",
+      "cofs": 0.9974,
+      "cofs_std": 0.0008,
+      "cfs": 0.0,
+      "cfs_std": 0.0,
+      "n": 500
+    },
+    {
+      "method_key": "fairimagen_e",
+      "method": "FairImagen-E",
+      "cofs": 0.9971,
+      "cofs_std": 0.001,
+      "cfs": -0.0015,
+      "cfs_std": 0.0025,
+      "n": 500
+    },
+    {
+      "method_key": "craftgc_e",
+      "method": "CRAFT-GC-E",
+      "cofs": 0.9971,
+      "cofs_std": 0.001,
+      "cfs": -0.0021,
+      "cfs_std": 0.003,
+      "n": 500
+    }
+  ],
+  "by_region": {
+    "latin_america": {
+      "base": 0.9973,
+      "prompt_aug": 0.9975,
+      "fairimagen_e": 0.9972,
+      "craftgc_e": 0.9972
+    },
+    "mena": {
+      "base": 0.9969,
+      "prompt_aug": 0.9973,
+      "fairimagen_e": 0.9968,
+      "craftgc_e": 0.9968
+    },
+    "south_asia": {
+      "base": 0.9972,
+      "prompt_aug": 0.9974,
+      "fairimagen_e": 0.9972,
+      "craftgc_e": 0.9972
+    },
+    "southeast_asia": {
+      "base": 0.9967,
+      "prompt_aug": 0.997,
+      "fairimagen_e": 0.9968,
+      "craftgc_e": 0.9968
+    },
+    "sub_saharan_africa": {
+      "base": 0.9975,
+      "prompt_aug": 0.9977,
+      "fairimagen_e": 0.9974,
+      "craftgc_e": 0.9974
+    }
+  },
+  "note": "Real CLIP ViT-B/32 text-embedding evaluation on GCFairBench n=500."
+}

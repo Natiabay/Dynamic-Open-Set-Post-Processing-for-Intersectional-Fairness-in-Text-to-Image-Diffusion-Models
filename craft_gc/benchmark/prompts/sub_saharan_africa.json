@@ -1,0 +1,802 @@
+[
+  {
+    "id": "SSA_professions_000",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_001",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a nurse in Lagos",
+    "cultural_caption": "A high-quality photo of a nurse in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_002",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a software engineer in Nairobi",
+    "cultural_caption": "A high-quality photo of a software engineer in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_003",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a lawyer in Accra",
+    "cultural_caption": "A high-quality photo of a lawyer in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_004",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a teacher in Johannesburg",
+    "cultural_caption": "A high-quality photo of a teacher in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_005",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a scientist in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a scientist in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_006",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a politician wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a politician wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_007",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a CEO in a matatu",
+    "cultural_caption": "A high-quality photo of a CEO in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_008",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an architect at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of an architect at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_009",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a judge in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a judge in Addis Ababa, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_010",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a professor in Lagos",
+    "cultural_caption": "A high-quality photo of a professor in Lagos, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_011",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a journalist in Nairobi",
+    "cultural_caption": "A high-quality photo of a journalist in Nairobi, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_012",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a pilot in Accra",
+    "cultural_caption": "A high-quality photo of a pilot in Accra, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_013",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a chef in Johannesburg",
+    "cultural_caption": "A high-quality photo of a chef in Johannesburg, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_014",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an artist in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of an artist in Dar es Salaam, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_015",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a police officer wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a police officer wearing kente cloth, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_016",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a farmer in a matatu",
+    "cultural_caption": "A high-quality photo of a farmer in a matatu, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_017",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a business owner at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a business owner at an open-air market in Africa, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_018",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a librarian in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a librarian in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_019",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a social worker in Lagos",
+    "cultural_caption": "A high-quality photo of a social worker in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_social_roles_020",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a community leader in Nairobi",
+    "cultural_caption": "A photo of a community leader in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_social_roles_021",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a student in Accra",
+    "cultural_caption": "A photo of a student in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_social_roles_022",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a parent in Johannesburg",
+    "cultural_caption": "A photo of a parent in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_social_roles_023",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a volunteer in Dar es Salaam",
+    "cultural_caption": "A photo of a volunteer in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_social_roles_024",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a mentor wearing kente cloth",
+    "cultural_caption": "A photo of a mentor wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_social_roles_025",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a caregiver in a matatu",
+    "cultural_caption": "A photo of a caregiver in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_social_roles_026",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of an activist at an open-air market in Africa",
+    "cultural_caption": "A photo of an activist at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_social_roles_027",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "social_roles",
+    "prompt": "A photo of a researcher in Addis Ababa",
+    "cultural_caption": "A photo of a researcher in Addis Ababa, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_028",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person shopping at a local market in Lagos",
+    "cultural_caption": "A photo of a person shopping at a local market in Lagos, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_029",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person commuting to work in Nairobi",
+    "cultural_caption": "A photo of a person commuting to work in Nairobi, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_030",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person cooking a meal in Accra",
+    "cultural_caption": "A photo of a person cooking a meal in Accra, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_031",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person reading in a park in Johannesburg",
+    "cultural_caption": "A photo of a person reading in a park in Johannesburg, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_032",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person playing football in Dar es Salaam",
+    "cultural_caption": "A photo of a person playing football in Dar es Salaam, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_daily_activities_033",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person attending a wedding wearing kente cloth",
+    "cultural_caption": "A photo of a person attending a wedding wearing kente cloth, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_cultural_practices_034",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people celebrating a festival in a matatu",
+    "cultural_caption": "A photo of people celebrating a festival in a matatu, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_cultural_practices_035",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people performing traditional music at an open-air market in Africa",
+    "cultural_caption": "A photo of people performing traditional music at an open-air market in Africa, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_cultural_practices_036",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people preparing traditional food in Addis Ababa",
+    "cultural_caption": "A photo of people preparing traditional food in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_cultural_practices_037",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people gathering for coffee ceremony in Lagos",
+    "cultural_caption": "A photo of people gathering for coffee ceremony in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_public_settings_038",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a hospital in Nairobi",
+    "cultural_caption": "A photo of a professional in a hospital in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_public_settings_039",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a university in Accra",
+    "cultural_caption": "A photo of a professional in a university in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_public_settings_040",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a courthouse in Johannesburg",
+    "cultural_caption": "A photo of a professional in a courthouse in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_public_settings_041",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a busy street in Dar es Salaam",
+    "cultural_caption": "A photo of a professional in a busy street in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_public_settings_042",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a rural village wearing kente cloth",
+    "cultural_caption": "A photo of a professional in a rural village wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_043",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_044",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_045",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_046",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_047",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_048",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_049",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_050",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_051",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_052",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_053",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_054",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_055",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_056",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_057",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_058",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_059",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_060",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_061",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_062",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_063",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_064",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_065",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_066",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_067",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_068",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_069",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_070",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_071",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_072",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_073",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_074",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_075",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_076",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_077",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_078",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_079",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_080",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_081",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_082",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_083",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_084",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_085",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_086",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_087",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_088",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_089",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_090",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_091",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Lagos",
+    "cultural_caption": "A high-quality photo of a doctor in Lagos, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_092",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Nairobi",
+    "cultural_caption": "A high-quality photo of a doctor in Nairobi, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_093",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Accra",
+    "cultural_caption": "A high-quality photo of a doctor in Accra, authentic Ghana cultural context"
+  },
+  {
+    "id": "SSA_professions_094",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Johannesburg",
+    "cultural_caption": "A high-quality photo of a doctor in Johannesburg, authentic South Africa cultural context"
+  },
+  {
+    "id": "SSA_professions_095",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dar es Salaam",
+    "cultural_caption": "A high-quality photo of a doctor in Dar es Salaam, authentic Tanzania cultural context"
+  },
+  {
+    "id": "SSA_professions_096",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing kente cloth",
+    "cultural_caption": "A high-quality photo of a doctor wearing kente cloth, authentic Ethiopia cultural context"
+  },
+  {
+    "id": "SSA_professions_097",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a matatu",
+    "cultural_caption": "A high-quality photo of a doctor in a matatu, authentic Nigeria cultural context"
+  },
+  {
+    "id": "SSA_professions_098",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor at an open-air market in Africa",
+    "cultural_caption": "A high-quality photo of a doctor at an open-air market in Africa, authentic Kenya cultural context"
+  },
+  {
+    "id": "SSA_professions_099",
+    "region": "sub_saharan_africa",
+    "region_code": "SSA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Addis Ababa",
+    "cultural_caption": "A high-quality photo of a doctor in Addis Ababa, authentic Ghana cultural context"
+  }
+]

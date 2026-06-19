@@ -1,0 +1,802 @@
+[
+  {
+    "id": "SA_professions_000",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_001",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a nurse in Karachi",
+    "cultural_caption": "A high-quality photo of a nurse in Karachi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_002",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a software engineer in Dhaka",
+    "cultural_caption": "A high-quality photo of a software engineer in Dhaka, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_003",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a lawyer in Colombo",
+    "cultural_caption": "A high-quality photo of a lawyer in Colombo, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_004",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a teacher in New Delhi",
+    "cultural_caption": "A high-quality photo of a teacher in New Delhi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_005",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a scientist wearing a sari",
+    "cultural_caption": "A high-quality photo of a scientist wearing a sari, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_006",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a politician in a chai shop",
+    "cultural_caption": "A high-quality photo of a politician in a chai shop, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_007",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a CEO in Mumbai",
+    "cultural_caption": "A high-quality photo of a CEO in Mumbai, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_008",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an architect in Karachi",
+    "cultural_caption": "A high-quality photo of an architect in Karachi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_009",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a judge in Dhaka",
+    "cultural_caption": "A high-quality photo of a judge in Dhaka, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_010",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a professor in Colombo",
+    "cultural_caption": "A high-quality photo of a professor in Colombo, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_011",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a journalist in New Delhi",
+    "cultural_caption": "A high-quality photo of a journalist in New Delhi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_012",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a pilot wearing a sari",
+    "cultural_caption": "A high-quality photo of a pilot wearing a sari, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_013",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a chef in a chai shop",
+    "cultural_caption": "A high-quality photo of a chef in a chai shop, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_014",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an artist in Mumbai",
+    "cultural_caption": "A high-quality photo of an artist in Mumbai, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_015",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a police officer in Karachi",
+    "cultural_caption": "A high-quality photo of a police officer in Karachi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_016",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a farmer in Dhaka",
+    "cultural_caption": "A high-quality photo of a farmer in Dhaka, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_017",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a business owner in Colombo",
+    "cultural_caption": "A high-quality photo of a business owner in Colombo, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_018",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a librarian in New Delhi",
+    "cultural_caption": "A high-quality photo of a librarian in New Delhi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_019",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a social worker wearing a sari",
+    "cultural_caption": "A high-quality photo of a social worker wearing a sari, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_social_roles_020",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a community leader in a chai shop",
+    "cultural_caption": "A photo of a community leader in a chai shop, authentic India cultural context"
+  },
+  {
+    "id": "SA_social_roles_021",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a student in Mumbai",
+    "cultural_caption": "A photo of a student in Mumbai, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_social_roles_022",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a parent in Karachi",
+    "cultural_caption": "A photo of a parent in Karachi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_social_roles_023",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a volunteer in Dhaka",
+    "cultural_caption": "A photo of a volunteer in Dhaka, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_social_roles_024",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a mentor in Colombo",
+    "cultural_caption": "A photo of a mentor in Colombo, authentic India cultural context"
+  },
+  {
+    "id": "SA_social_roles_025",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a caregiver in New Delhi",
+    "cultural_caption": "A photo of a caregiver in New Delhi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_social_roles_026",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of an activist wearing a sari",
+    "cultural_caption": "A photo of an activist wearing a sari, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_social_roles_027",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "social_roles",
+    "prompt": "A photo of a researcher in a chai shop",
+    "cultural_caption": "A photo of a researcher in a chai shop, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_daily_activities_028",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person shopping at a local market in Mumbai",
+    "cultural_caption": "A photo of a person shopping at a local market in Mumbai, authentic India cultural context"
+  },
+  {
+    "id": "SA_daily_activities_029",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person commuting to work in Karachi",
+    "cultural_caption": "A photo of a person commuting to work in Karachi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_daily_activities_030",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person cooking a meal in Dhaka",
+    "cultural_caption": "A photo of a person cooking a meal in Dhaka, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_daily_activities_031",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person reading in a park in Colombo",
+    "cultural_caption": "A photo of a person reading in a park in Colombo, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_daily_activities_032",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person playing football in New Delhi",
+    "cultural_caption": "A photo of a person playing football in New Delhi, authentic India cultural context"
+  },
+  {
+    "id": "SA_daily_activities_033",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person attending a wedding wearing a sari",
+    "cultural_caption": "A photo of a person attending a wedding wearing a sari, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_cultural_practices_034",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people celebrating a festival in a chai shop",
+    "cultural_caption": "A photo of people celebrating a festival in a chai shop, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_cultural_practices_035",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people performing traditional music in Mumbai",
+    "cultural_caption": "A photo of people performing traditional music in Mumbai, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_cultural_practices_036",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people preparing traditional food in Karachi",
+    "cultural_caption": "A photo of people preparing traditional food in Karachi, authentic India cultural context"
+  },
+  {
+    "id": "SA_cultural_practices_037",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people gathering for coffee ceremony in Dhaka",
+    "cultural_caption": "A photo of people gathering for coffee ceremony in Dhaka, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_public_settings_038",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a hospital in Colombo",
+    "cultural_caption": "A photo of a professional in a hospital in Colombo, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_public_settings_039",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a university in New Delhi",
+    "cultural_caption": "A photo of a professional in a university in New Delhi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_public_settings_040",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a courthouse wearing a sari",
+    "cultural_caption": "A photo of a professional in a courthouse wearing a sari, authentic India cultural context"
+  },
+  {
+    "id": "SA_public_settings_041",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a busy street in a chai shop",
+    "cultural_caption": "A photo of a professional in a busy street in a chai shop, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_public_settings_042",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a rural village in Mumbai",
+    "cultural_caption": "A photo of a professional in a rural village in Mumbai, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_043",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_044",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_045",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_046",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_047",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_048",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_049",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_050",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_051",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_052",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_053",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_054",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_055",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_056",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_057",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_058",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_059",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_060",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_061",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_062",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_063",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_064",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_065",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_066",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_067",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_068",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_069",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_070",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_071",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_072",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_073",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_074",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_075",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_076",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_077",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_078",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_079",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_080",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_081",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_082",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_083",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_084",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_085",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_086",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_087",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_088",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_089",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_090",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_091",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_092",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_093",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Dhaka",
+    "cultural_caption": "A high-quality photo of a doctor in Dhaka, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_094",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Colombo",
+    "cultural_caption": "A high-quality photo of a doctor in Colombo, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_095",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in New Delhi",
+    "cultural_caption": "A high-quality photo of a doctor in New Delhi, authentic Sri Lanka cultural context"
+  },
+  {
+    "id": "SA_professions_096",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a sari",
+    "cultural_caption": "A high-quality photo of a doctor wearing a sari, authentic India cultural context"
+  },
+  {
+    "id": "SA_professions_097",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in a chai shop",
+    "cultural_caption": "A high-quality photo of a doctor in a chai shop, authentic Pakistan cultural context"
+  },
+  {
+    "id": "SA_professions_098",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Mumbai",
+    "cultural_caption": "A high-quality photo of a doctor in Mumbai, authentic Bangladesh cultural context"
+  },
+  {
+    "id": "SA_professions_099",
+    "region": "south_asia",
+    "region_code": "SA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Karachi",
+    "cultural_caption": "A high-quality photo of a doctor in Karachi, authentic Sri Lanka cultural context"
+  }
+]

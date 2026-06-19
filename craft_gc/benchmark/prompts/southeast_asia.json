@@ -1,0 +1,802 @@
+[
+  {
+    "id": "SEA_professions_000",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_001",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a nurse in Manila",
+    "cultural_caption": "A high-quality photo of a nurse in Manila, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_002",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a software engineer in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a software engineer in Ho Chi Minh City, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_003",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a lawyer in Bangkok",
+    "cultural_caption": "A high-quality photo of a lawyer in Bangkok, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_004",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a teacher in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a teacher in Kuala Lumpur, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_005",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a scientist wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a scientist wearing a batik shirt, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_006",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a politician in Jakarta",
+    "cultural_caption": "A high-quality photo of a politician in Jakarta, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_007",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a CEO in Manila",
+    "cultural_caption": "A high-quality photo of a CEO in Manila, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_008",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an architect in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of an architect in Ho Chi Minh City, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_009",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a judge in Bangkok",
+    "cultural_caption": "A high-quality photo of a judge in Bangkok, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_010",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a professor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a professor in Kuala Lumpur, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_011",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a journalist wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a journalist wearing a batik shirt, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_012",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a pilot in Jakarta",
+    "cultural_caption": "A high-quality photo of a pilot in Jakarta, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_013",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a chef in Manila",
+    "cultural_caption": "A high-quality photo of a chef in Manila, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_014",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of an artist in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of an artist in Ho Chi Minh City, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_015",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a police officer in Bangkok",
+    "cultural_caption": "A high-quality photo of a police officer in Bangkok, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_016",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a farmer in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a farmer in Kuala Lumpur, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_017",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a business owner wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a business owner wearing a batik shirt, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_018",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a librarian in Jakarta",
+    "cultural_caption": "A high-quality photo of a librarian in Jakarta, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_019",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a social worker in Manila",
+    "cultural_caption": "A high-quality photo of a social worker in Manila, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_social_roles_020",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a community leader in Ho Chi Minh City",
+    "cultural_caption": "A photo of a community leader in Ho Chi Minh City, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_social_roles_021",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a student in Bangkok",
+    "cultural_caption": "A photo of a student in Bangkok, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_social_roles_022",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a parent in Kuala Lumpur",
+    "cultural_caption": "A photo of a parent in Kuala Lumpur, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_social_roles_023",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a volunteer wearing a batik shirt",
+    "cultural_caption": "A photo of a volunteer wearing a batik shirt, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_social_roles_024",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a mentor in Jakarta",
+    "cultural_caption": "A photo of a mentor in Jakarta, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_social_roles_025",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a caregiver in Manila",
+    "cultural_caption": "A photo of a caregiver in Manila, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_social_roles_026",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of an activist in Ho Chi Minh City",
+    "cultural_caption": "A photo of an activist in Ho Chi Minh City, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_social_roles_027",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "social_roles",
+    "prompt": "A photo of a researcher in Bangkok",
+    "cultural_caption": "A photo of a researcher in Bangkok, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_028",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person shopping at a local market in Kuala Lumpur",
+    "cultural_caption": "A photo of a person shopping at a local market in Kuala Lumpur, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_029",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person commuting to work wearing a batik shirt",
+    "cultural_caption": "A photo of a person commuting to work wearing a batik shirt, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_030",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person cooking a meal in Jakarta",
+    "cultural_caption": "A photo of a person cooking a meal in Jakarta, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_031",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person reading in a park in Manila",
+    "cultural_caption": "A photo of a person reading in a park in Manila, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_032",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person playing football in Ho Chi Minh City",
+    "cultural_caption": "A photo of a person playing football in Ho Chi Minh City, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_daily_activities_033",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "daily_activities",
+    "prompt": "A photo of a person attending a wedding in Bangkok",
+    "cultural_caption": "A photo of a person attending a wedding in Bangkok, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_cultural_practices_034",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people celebrating a festival in Kuala Lumpur",
+    "cultural_caption": "A photo of people celebrating a festival in Kuala Lumpur, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_cultural_practices_035",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people performing traditional music wearing a batik shirt",
+    "cultural_caption": "A photo of people performing traditional music wearing a batik shirt, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_cultural_practices_036",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people preparing traditional food in Jakarta",
+    "cultural_caption": "A photo of people preparing traditional food in Jakarta, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_cultural_practices_037",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "cultural_practices",
+    "prompt": "A photo of people gathering for coffee ceremony in Manila",
+    "cultural_caption": "A photo of people gathering for coffee ceremony in Manila, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_public_settings_038",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a hospital in Ho Chi Minh City",
+    "cultural_caption": "A photo of a professional in a hospital in Ho Chi Minh City, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_public_settings_039",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a university in Bangkok",
+    "cultural_caption": "A photo of a professional in a university in Bangkok, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_public_settings_040",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a courthouse in Kuala Lumpur",
+    "cultural_caption": "A photo of a professional in a courthouse in Kuala Lumpur, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_public_settings_041",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a busy street wearing a batik shirt",
+    "cultural_caption": "A photo of a professional in a busy street wearing a batik shirt, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_public_settings_042",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "public_settings",
+    "prompt": "A photo of a professional in a rural village in Jakarta",
+    "cultural_caption": "A photo of a professional in a rural village in Jakarta, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_043",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_044",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_045",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_046",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_047",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_048",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_049",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_050",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_051",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_052",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_053",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_054",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_055",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_056",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_057",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_058",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_059",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_060",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_061",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_062",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_063",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_064",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_065",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_066",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_067",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_068",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_069",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_070",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_071",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_072",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_073",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_074",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_075",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_076",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_077",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_078",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_079",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_080",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_081",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_082",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_083",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_084",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_085",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_086",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_087",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_088",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_089",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_090",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_091",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_092",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_093",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_094",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Kuala Lumpur",
+    "cultural_caption": "A high-quality photo of a doctor in Kuala Lumpur, authentic Malaysia cultural context"
+  },
+  {
+    "id": "SEA_professions_095",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor wearing a batik shirt",
+    "cultural_caption": "A high-quality photo of a doctor wearing a batik shirt, authentic Indonesia cultural context"
+  },
+  {
+    "id": "SEA_professions_096",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Jakarta",
+    "cultural_caption": "A high-quality photo of a doctor in Jakarta, authentic Philippines cultural context"
+  },
+  {
+    "id": "SEA_professions_097",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Manila",
+    "cultural_caption": "A high-quality photo of a doctor in Manila, authentic Vietnam cultural context"
+  },
+  {
+    "id": "SEA_professions_098",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Ho Chi Minh City",
+    "cultural_caption": "A high-quality photo of a doctor in Ho Chi Minh City, authentic Thailand cultural context"
+  },
+  {
+    "id": "SEA_professions_099",
+    "region": "southeast_asia",
+    "region_code": "SEA",
+    "category": "professions",
+    "prompt": "A high-quality photo of a doctor in Bangkok",
+    "cultural_caption": "A high-quality photo of a doctor in Bangkok, authentic Malaysia cultural context"
+  }
+]
