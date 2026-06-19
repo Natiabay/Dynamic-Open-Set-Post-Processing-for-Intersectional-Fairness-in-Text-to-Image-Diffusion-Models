@@ -126,8 +126,8 @@ def main():
 
     manifest_path = ROOT / args.manifest
     if not manifest_path.exists():
-        print(f"No manifest at {manifest_path}; run run_pilot_images.py first.")
-        sys.exit(0)
+        print(f"ERROR: No manifest at {manifest_path}. run_pilot_images.py did not run.")
+        sys.exit(1)
 
     manifest = json.loads(manifest_path.read_text())
     device = args.device
@@ -169,6 +169,9 @@ def main():
 
     if skipped:
         print(f"Skipped {skipped} entries (missing images — no fallback to base).")
+    if not results:
+        print("ERROR: No images classified. Generation likely failed.")
+        sys.exit(1)
 
     out_path = ROOT / args.output
     out_path.parent.mkdir(parents=True, exist_ok=True)

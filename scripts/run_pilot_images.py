@@ -68,23 +68,33 @@ class CASAttnProcessor:
                 key = key - (beta_t * lam * proj * d_norm.unsqueeze(0).unsqueeze(0)).to(key.dtype)
 
         inner_dim = key.shape[-1]
-        head_dim = inner_dim // attn.heads
+        heads = getattr(attn, "heads", getattr(attn, "num_heads", 8))
+        head_dim = inner_dim // heads
 
-        query = query.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
-        key = key.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
-        value = value.view(batch_size, -1, attn.heads, head_dim).transpose(1, 2)
+        query = query.view(batch_size, -1, heads, head_dim).transpose(1, 2)
+        key = key.view(batch_size, -1, heads, head_dim).transpose(1, 2)
+        value = value.view(batch_size, -1, heads, head_dim).transpose(1, 2)
+
+        if attention_mask is not None and hasattr(attn, "prepare_attention_mask"):
+            attention_mask = attn.prepare_attention_mask(
+                attention_mask, hidden_states.shape[1], batch_size
+            )
 
         hidden_states = F.scaled_dot_product_attention(
             query, key, value, attn_mask=attention_mask, dropout_p=0.0, is_causal=False
         )
-        hidden_states = hidden_states.transpose(1, 2).reshape(batch_size, -1, attn.heads * head_dim)
+        hidden_states = hidden_states.transpose(1, 2).reshape(batch_size, -1, inner_dim)
         hidden_states = hidden_states.to(query.dtype)
         hidden_states = attn.to_out[0](hidden_states)
         hidden_states = attn.to_out[1](hidden_states)
 
-        if attn.residual_connection:
+        if getattr(attn, "residual_connection", False):
             hidden_states = hidden_states + residual
-        hidden_states = hidden_states / attn.rescale_output_factor
+        scale = getattr(attn, "resample_scale_with_output_factor", None)
+        if scale is None:
+            scale = getattr(attn, "rescale_output_factor", 1.0)
+        if scale and scale != 1.0:
+            hidden_states = hidden_states / scale
         return hidden_states
 
 
@@ -92,15 +102,19 @@ def load_pipeline(model_id: str, vae_id: str, device: str):
     from diffusers import AutoencoderKL, DPMSolverMultistepScheduler, StableDiffusionPipeline
 
     dtype = torch.float16 if device.startswith("cuda") else torch.float32
+    print(f"  Downloading VAE: {vae_id} ...")
     vae = AutoencoderKL.from_pretrained(vae_id, torch_dtype=dtype)
+    print(f"  Downloading model: {model_id} ...")
     pipe = StableDiffusionPipeline.from_pretrained(
         model_id,
         vae=vae,
         torch_dtype=dtype,
         safety_checker=None,
+        requires_safety_checker=False,
     )
     pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
     pipe = pipe.to(device)
+    pipe.set_progress_bar_config(disable=False)
     return pipe
 
 
@@ -299,6 +313,10 @@ def main():
 
     manifest = []
     total = len(entries) * len(args.seeds) * len(args.methods)
+    print(f"Prompts: {len(entries)} | Seeds: {len(args.seeds)} | Methods: {len(args.methods)}")
+    print(f"TOTAL IMAGES TO GENERATE: {total}")
+    print(f"Expected runtime: ~{total * 8 // 60}–{total * 15 // 60} minutes on T4 GPU")
+    print("If this finishes in under 5 minutes, something failed — read errors above.")
 
     with tqdm(total=total, desc="Generating images") as pbar:
         for entry in entries:
@@ -308,7 +326,13 @@ def main():
                     method_dir = out_root / method
                     method_dir.mkdir(parents=True, exist_ok=True)
 
-                    img = generate_image(pipe, prompt, method, seed)
+                    try:
+                        img = generate_image(pipe, prompt, method, seed)
+                    except Exception as exc:
+                        raise RuntimeError(
+                            f"Generation failed: {entry['id']} | {method} | seed={seed}\n{exc}"
+                        ) from exc
+
                     fname = f"{entry['id']}_s{seed}.png"
                     save_path = method_dir / fname
                     img.save(save_path)
@@ -328,7 +352,10 @@ def main():
 
     meta = out_root / "manifest.json"
     meta.write_text(json.dumps(manifest, indent=2))
-    print(f"Saved {len(manifest)} images under {out_root}")
+    png_count = len(list(out_root.rglob("*.png")))
+    if png_count != total:
+        raise SystemExit(f"ERROR: expected {total} PNG files, found {png_count}")
+    print(f"Saved {len(manifest)} manifest entries, {png_count} PNG files under {out_root}")
     print(f"Manifest: {meta}")
 
 
