@@ -22,7 +22,7 @@ results/            Generated outputs (after Colab)
 
 ---
 
-## Publishable experiment (Colab Trial 2)
+##  experiment (Colab Trial 2)
 
 ### 1. Open `CRAFT_GC_Colab.ipynb` on Colab (T4 GPU)
 
@@ -49,7 +49,7 @@ python scripts/update_image_table.py
 
 ## Trial 1 vs Trial 2
 
-| | Trial 1 (pilot) | Trial 2 (publishable) |
+| | Trial 1 (pilot) | Trial 2 (More Refined) |
 |--|-----------------|----------------------|
 | Prompts | 50 (SSA only) | 100 stratified (20 × 5 regions) |
 | CAS | OpenCLIP 512-d (no effect) | SD text encoder 768-d |
@@ -68,16 +68,6 @@ pip install open-clip-torch pandas matplotlib diffusers transformers accelerate
 
 ---
 
-## Hugging Face Space demo
-
-1. Create Space at huggingface.co/new-space (Gradio, **GPU**)
-2. Point to this repo; set `app.py` and `requirements-space.txt`
-3. Add secret `HF_TOKEN`
-4. Upload `results/pilot_images/` from Colab for benchmark gallery tab
-
-See `README_SPACE.md`.
-
----
 
 ## GCFairBench prompt criteria
 
